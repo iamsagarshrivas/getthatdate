@@ -1,7 +1,10 @@
+import Link from 'next/link'
 export default () => {
 	return (
 		<nav className="navbar navbar-light bg-light">
-			<a className="navbar-brand" href="#">Date Time</a>
+			<Link href="/">
+				<a className="navbar-brand mx-auto">Date&Time</a>
+			</Link>
 		</nav>
 	)
 }

@@ -1,0 +1,33 @@
+.ring {
+	min-width: 200px;
+	min-height: 200px;
+	border-radius: 50%;
+	background-color: #92bda3;
+	box-shadow: 20px 20px 40px #80a68f, -20px -20px 40px #a4d4b7;
+}
+
+.ring div {
+	position: relative;
+	left: 100px;
+	top: 100px;
+	width: 50%;
+	height: 50%;
+}
+.ring div div {
+	height: 0;
+	position: static;
+}
+.ring div div.hour {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 55px;
+}
+.ring div div.minute {
+	border: 1px solid green;
+
+	border-collapse: collapse;
+	width: 70px;
+}
+.ring div div.sec {
+	height: 0;
+}
