@@ -1,1 +1,1 @@
-export default  () => <h1>test app edited</h1>
+export default  () => <h1>test hello!</h1>
