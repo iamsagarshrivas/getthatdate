@@ -1,9 +1,11 @@
 // import App from 'next/app'
 import Layout from '../components/Layout'
+import Ad from '../components/Ad'
 import '../assets/styles/index.css'
 function MyApp({ Component, pageProps }) {
 	return (
 		<Layout>
+			<Ad />
 			<Component {...pageProps} />
 		</Layout>
 	)
