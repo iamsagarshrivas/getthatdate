@@ -32,7 +32,6 @@ export default () => {
 					<button onClick={e => push('/date-calculation')} className="border-0 btn btn-lg btn-light shadow-lg w-100">
 						<span>
 							<i className="fa fa-calendar-check-o mx-2" />
-		{process.env.AD_CLIENT}
 						Date Calculation
 						</span>
 					</button>

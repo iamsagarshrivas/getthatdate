@@ -5,7 +5,6 @@ import '../assets/styles/index.css'
 function MyApp({ Component, pageProps }) {
 	return (
 		<Layout>
-			<Ad />
 			<Component {...pageProps} />
 		</Layout>
 	)
