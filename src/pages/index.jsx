@@ -1,8 +1,12 @@
 import { Collapse } from 'reactstrap';
 import { useState, useEffect } from 'react';
-import moment from 'moment';
-import Clock from '../components/Clock'
 import { useRouter } from 'next/router'
+import dynamic from 'next/dynamic'
+import moment from 'moment';
+
+const Clock = dynamic(()=> import('../components/Clock'), {
+	ssr: false
+})
 
 export default () => {
 
