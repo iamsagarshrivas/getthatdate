@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+	.main {
+		display: flex;
+	}
+	.content {
+		order: 1;
+	}
+	.ad1 {
+		order: 2;
+	}
+	.ad2 {
+		order: 3;
+	}
+}
