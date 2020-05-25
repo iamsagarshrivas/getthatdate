@@ -12,7 +12,7 @@ export default ({ children }) => {
 			<header className="sticky-top shadow border-0">
 				<Header />
 			</header>
-			<main className="vh-100  container">
+			<main style={{minHeight: '100vh'}} className="container">
 				{children}
 			</main>
 			<footer>

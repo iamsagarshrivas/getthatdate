@@ -21,7 +21,7 @@ export default () => {
 	return (
 		<>
 			<div className="row my-5 d-flex justify-content-center">
-				<Clock />
+				<Clock momentObj={dateNtime}/>
 		</div>
 			<div className="row my-5">
 				<div className="col-lg-4 col-md-4 col-sm-12 my-1">
